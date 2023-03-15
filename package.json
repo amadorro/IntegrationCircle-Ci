@@ -1,0 +1,19 @@
+{
+  "name": "openai_orange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "run": "npm run test --"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.7.0"
+  },
+  "devDependencies": {
+    "@testing-library/cypress": "^9.0.0"
+  }
+}
